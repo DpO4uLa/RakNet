@@ -5042,13 +5042,13 @@ void* UpdateNetworkLoop( void* arguments )
 #endif
 
 
-	/*
+	
 #ifdef _WIN32
 #if (_WIN32_WINNT >= 0x0400) || (_WIN32_WINDOWS > 0x0400)
 	CloseHandle( timerHandle );
 #endif
 #endif
-*/
+
 
 	rakPeer->isMainLoopThreadActive = false;
 
